@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ゲーム紹介</title>
+  <title>Game Showcase</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -13,7 +13,7 @@
       color: #333;
     }
     header {
-      background: #2196F3; /* 青色に変更 */
+      background: #2196F3; /* Blue */
       color: white;
       text-align: center;
       padding: 1rem;
@@ -28,7 +28,7 @@
       padding: 0 1rem;
     }
     h2 {
-      border-left: 5px solid #2196F3; /* 青に変更 */
+      border-left: 5px solid #2196F3; /* Blue */
       padding-left: 0.5rem;
       margin-bottom: 1rem;
     }
@@ -67,47 +67,57 @@
       display: inline-block;
       margin-top: 0.5rem;
       padding: 0.5rem 1rem;
-      background: #2196F3; /* 青ボタン */
+      background: #2196F3; /* Blue button */
       color: white;
       text-decoration: none;
       border-radius: 6px;
       transition: background 0.2s;
     }
     .btn:hover {
-      background: #1976D2; /* 濃い青 */
+      background: #1976D2; /* Darker blue */
     }
     footer {
       text-align: center;
       padding: 1rem;
-      font-size: 0.8rem;
-      background: #e3f2fd; /* 薄い青背景 */
+      font-size: 0.9rem;
+      background: #e3f2fd; /* Light blue background */
       margin-top: 2rem;
       color: #333;
+    }
+    footer a {
+      color: #2196F3;
+      text-decoration: none;
+      margin-left: 10px;
+    }
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>ゲーム紹介ページ</h1>
-    <p>これまでに制作したゲーム一覧</p>
+    <h1>Game Showcase</h1>
+    <p>A list of games I have developed so far</p>
   </header>
   
   <main>
-    <h2>リリース済み作品</h2>
+    <h2>Released Titles</h2>
     <div class="cards">
-      <!-- ゲームカード（例：もっちん！） -->
+      <!-- Game Card (Example: Motchin!) -->
       <div class="card">
-        <img src="Icon/Motchin.png" alt="もっちん！アイコン">
-        <h3>もっちん！</h3>
-        <p>制限時間内に「もっちん」をつなげて輪を作り、消して高得点を狙う爽快パズル。</p>
-        <a class="btn" href="https://apps.apple.com/jp/app/%E3%82%82%E3%81%A3%E3%81%A1%E3%82%93-%E7%B9%8B%E3%81%92%E3%81%A6%E6%B6%88%E3%81%99%E7%88%BD%E5%BF%AB%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6750471277" target="_blank">App Storeで見る</a>
+        <img src="Icon/Motchin.png" alt="Motchin! Icon">
+        <h3>Motchin!</h3>
+        <p>Connect and loop Motchin characters within the time limit to clear them and aim for a high score in this refreshing puzzle game.</p>
+        <a class="btn" href="https://apps.apple.com/jp/app/%E3%82%82%E3%81%A3%E3%81%A1%E3%82%93-%E7%B9%8B%E3%81%92%E3%81%A6%E6%B6%88%E3%81%99%E7%88%BD%E5%BF%AB%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6750471277" target="_blank">View on App Store</a>
       </div>
-      <!-- 新しいゲームはここに追加 -->
+      <!-- Add new games here -->
     </div>
   </main>
   
   <footer>
-    <p>&copy; 2025 My Games. All rights reserved.</p>
+    <p>&copy; 2025 My Games. All rights reserved. 
+      <a href="/support/index.html">Support</a>
+    </p>
   </footer>
 </body>
 </html>
