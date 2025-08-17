@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ゲーム紹介</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      border-left: 5px solid #4CAF50;
+      padding-left: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 20%;
+      margin-bottom: 0.5rem;
+    }
+    .card h3 {
+      margin: 0.5rem 0;
+    }
+    .card p {
+      font-size: 0.9rem;
+      color: #555;
+      min-height: 50px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #45a049;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.8rem;
+      background: #eee;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ゲーム紹介ページ</h1>
+    <p>これまでに制作したゲーム一覧</p>
+  </header>
+  
+  <main>
+    <h2>リリース済み作品</h2>
+    <div class="cards">
+      <!-- ゲームカード（例：もっちん！） -->
+      <div class="card">
+        <img src="mockin_icon.png" alt="もっちん！アイコン">
+        <h3>もっちん！</h3>
+        <p>制限時間内に「もっちん」をつなげて輪を作り、消して高得点を狙う爽快パズル。</p>
+        <a class="btn" href="https://apps.apple.com/jp/app/%E3%82%82%E3%81%A3%E3%81%A1%E3%82%93-%E7%B9%8B%E3%81%92%E3%81%A6%E6%B6%88%E3%81%99%E7%88%BD%E5%BF%AB%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6750471277" target="_blank">App Storeで見る</a>
+      </div>
+      <!-- 新しいゲームはここに追加 -->
+    </div>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 My Games. All rights reserved.</p>
+  </footer>
+</body>
+</html>
